@@ -13,25 +13,32 @@ public class WebdriveMethods {
 				System.setProperty("webdriver.chrome.driver",
 						"C:\\Users\\ankurjain\\Desktop\\Documents\\chromedriver_win32 (2)\\chromedriver.exe");
 				ChromeDriver driver= new ChromeDriver();
+		
+				// get()
 				driver.get("https://www.saucedemo.com/");
 				
-				//Above
-				By username  = RelativeLocator.with(By.tagName("input")).above(By.id("password"));
-				driver.findElement(username).sendKeys("standard_user");
+				// manage()
+				driver.manage().window().maximize();
 				
-				//Below
-				By password  = RelativeLocator.with(By.tagName("input")).below(By.id("user-name"));
-				driver.findElement(password).sendKeys("secret_sauce");
+				// getCurrentUrl()
+				
+				String url = driver.getCurrentUrl();
+				System.out.println(url);
+				
+				// getTitle()
+				String title = driver.getTitle();
+				System.out.println(title);
+		
+				// quit() // closes all browser tabs
+		
+				driver.quit();
+				
+				// close() //closes current tab
+				driver.close();
 				
 				
 				
-				//left-of
-				
-				
-				//right-of
-				
-				
-				//near
+
 		
 				
 				

@@ -27,7 +27,7 @@ public class relativeLocators {
 				
 				//left-of
 				
-				
+				cd 
 				//right-of
 				
 				
