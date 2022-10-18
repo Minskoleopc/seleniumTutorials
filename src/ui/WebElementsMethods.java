@@ -77,9 +77,6 @@ public class WebElementsMethods {
 		String val9 = driver.findElement(By.tagName("h1")).getCssValue("color");
 		System.out.println(val9);
 		
-		
-		
-		
 		driver.quit();
 		
 		
