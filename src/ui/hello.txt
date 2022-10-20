@@ -1,0 +1,20 @@
+
+
+// Summary
+
+1)html page opens on browser
+
+2)html page head and body
+
+3)head - meta info body - webElement 
+
+4) On user action-- create update retrive delete webelement
+
+5) On user action -- add , update , delete retrive element's attribute
+
+6) 4 and 5 can be done using js
+
+7) alert() , confirm() , prompt() are js alerts not part of Document 
+we cannot inspect them
+
+

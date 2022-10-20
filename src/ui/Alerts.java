@@ -17,12 +17,18 @@ public class Alerts {
 						"C:\\Users\\ankurjain\\Desktop\\Documents\\chromedriver_win32 (2)\\chromedriver.exe");
 				ChromeDriver driver= new ChromeDriver(); 
 				driver.get("http://www.webdriveruniversity.com/Popup-Alerts/index.html");
-				driver.findElement(By.id("button1")).click();
-				driver.switchTo().alert().accept();
+//				driver.findElement(By.id("button1")).click();
+//				driver.switchTo().alert().accept();
 				
-				driver.findElement(By.id("button4")).click();
-				driver.switchTo().alert().accept();
+//				driver.findElement(By.id("button4")).click();
+//				driver.switchTo().alert().accept();
 				//driver.switchTo().alert().dismiss();
+				
+				driver.findElement(By.id("button2")).click();
+				Thread.sleep(3000);
+				driver.findElement(By.cssSelector("button[class=\"btn btn-default\"]")).click();
+				
+				
 				
 				
 				
