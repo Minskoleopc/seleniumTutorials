@@ -21,49 +21,47 @@ public class ActionsClass {
 				// create object of the class
 				
 				Actions  a = new Actions (driver);
-				WebElement e = driver.findElement(By.id("double-click"));
-				a.doubleClick(e).perform();
-				
-				//Drag and Drop
-				//act.dragAndDrop(From, To).build().perform();
-				WebElement from = driver.findElement(By.cssSelector("#draggable"));
-				WebElement to = driver.findElement(By.cssSelector("#droppable"));
-				a.dragAndDrop(from,to).build().perform();
-				
-				// Arrangement , action , assertion
-				// Click and Hold()
-				
-				WebElement e2 = driver.findElement(By.cssSelector("#click-box"));
-				a.moveToElement(e2);
-				a.clickAndHold().perform();
-				
-				
-				// Context click
-				WebElement e3 = driver.findElement(By.cssSelector("#double-click"));
-				a.contextClick(e3).perform();
-				
-				
-				
-
+//				WebElement e = driver.findElement(By.id("double-click"));
+//				a.doubleClick(e).perform();
+//				
+//				//Drag and Drop
+//				//act.dragAndDrop(From, To).build().perform();
+//				WebElement from = driver.findElement(By.cssSelector("#draggable"));
+//				WebElement to = driver.findElement(By.cssSelector("#droppable"));
+//				a.dragAndDrop(from,to).build().perform();
+//				
+//				// Arrangement , action , assertion
+//				// Click and Hold()
+//				
+//				WebElement e2 = driver.findElement(By.cssSelector("#click-box"));
+//				a.moveToElement(e2);
+//				a.clickAndHold().perform();
+//				
+//				
+//				// Context click
+//				WebElement e3 = driver.findElement(By.cssSelector("#double-click"));
+//				a.contextClick(e3).perform();
 				
 				
+				// Hover over element
 				
+				WebElement e4 =  driver.findElement(By.cssSelector(".dropbtn"));
+				a.moveToElement(e4).perform();
 				
-				
+				// div[style='float:center;'] > button 
 				
 				
 				
 				
 				
 						
-				
 				//  Javascript
 				// element created , element update , element delete , element retrive
 				// attribute of element --> retrive , update , delete , added
 				
 				
 				
-				
+			
 				
 				
 				
