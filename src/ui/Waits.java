@@ -107,6 +107,25 @@ public class Waits {
 				// 5 sec --- 5 sec ---- 5 sec-- 5sec
 				// exception
 				// message
+			    
+			    // explicit wait is implied on single element with certain conditions 
+			    
+			    
+			    // A  - 5
+			    // B  - 5
+			    // c  - 6
+			    
+			    // bad option - implicit wait 6 sec
+			    // explicit apply wait on element 'C'
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
 				
 				
 				
